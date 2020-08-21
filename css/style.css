@@ -1,0 +1,164 @@
+header {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  color: #fff;
+  min-height: 100px;
+  padding-top: 25px;
+}
+
+header form {
+  float: right;
+}
+
+header .logo {
+  float: left;
+}
+
+.panel-heading {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  color: #fff !important;
+}
+
+.bubble {
+  position: relative;
+  width: 580px;
+  min-height: 65px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.bubble::after {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-color: transparent #fff;
+  margin-top: -15px;
+  left: -15px;
+  top: 50%;
+}
+
+.bubble::before {
+  position: absolute;
+  content: "";
+  border-color: transparent #ccc;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  display: block;
+  width: 0;
+  z-index: 0;
+  margin-top: -15px;
+  left: -16px;
+  top: 50%;
+}
+
+.post-actions {
+  margin: 5px;
+}
+
+.comment-form .form-group {
+  width: 88.4%;
+}
+
+.comment-form input[type="text"] {
+  width: 100%;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px 0;
+  overflow: auto;
+  width: 98%;
+}
+
+.panel-heading {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  color: #fff !important;
+}
+
+.comment-avatar img {
+  margin-right: 5px;
+  width: 40px;
+}
+
+.friends li {
+  padding: 0 5px;
+  display: inline;
+  float: left;
+  list-style: none;
+}
+
+.friends img {
+  width: 55px;
+}
+
+.groups img {
+  width: 80px;
+  float: left;
+  margin-right: 15px;
+}
+
+.group-item {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  overflow: auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.members .member-row {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.members img {
+  margin-bottom: 5px;
+}
+
+.profile ul {
+  margin-top: 30px;
+}
+
+.profile li {
+  list-style: none;
+  line-height: 1.9em;
+}
+
+.photos {
+  padding: 0;
+  margin: 0;
+}
+
+.photos li {
+  float: left;
+  list-style: none;
+  margin: 5px;
+  width: 23%;
+}
+
+.photos img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-top: 20px;
+  border-top: 7px solid #04519b;
+  color: #04519b;
+  background: #f4f4f4;
+}
+
+@media (min-width: 991px) {
+  .members p {
+    padding-top: 40px;
+  }
+}
